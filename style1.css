@@ -1,0 +1,161 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: #404041;
+  height: 150px;
+  text-align: center;
+}
+
+h1 {
+  margin: auto;
+  color: #ED458B;
+  font-size: 75px;
+  padding: 20px;
+}
+
+#guesser {
+  font-weight: 300;
+  color: #E6E7E8;
+}
+
+#min-max-fields {
+  /*border: 2px solid black;*/
+  position: absolute;
+  top: 175px;
+  left: 33%;
+  height: 250px;
+  width: 500px;
+}
+
+#range-msg {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.min-max {
+  width: 150px;
+  height: 35px;
+  font-size: 30px;
+  margin-top: 20px;
+  /*margin-left: 30px;*/
+}
+
+
+
+.label {
+  margin-left: 140px;
+  font-size: 30px;
+  color: #404041;
+}
+
+#submit-button {
+  display: block;
+  line-height: 40px;
+  width: 240px;
+  margin-top: 25px;
+
+}
+
+
+
+#top-boxes {
+  position: relative;
+}
+
+#num-guessed {
+  display: block;
+  height: 50px;
+  width: 500px;
+  margin: auto;
+  border: 2px solid #D0D2D3;
+  font-size: 30px;
+  position: absolute;
+  left: 33%;
+  top: 280px;
+}
+
+
+#guess-clear {
+  height: 50px;
+  width: 500px;
+  margin: auto;
+  position: absolute;
+  left: 33%;
+  top: 360px;
+}
+
+.button {
+  background-color: #929497;
+  font-size: 30px;
+  border-style: solid;
+  border-color: #929497;
+  font-weight: 300;
+  transition-duration: 0.4s;
+  color: #FFFFFF;
+  border-radius: 100px;
+}
+
+.top-buttons {
+  display: inline-block;
+  line-height: 40px;
+  width: 240px;
+  }
+
+#clear-button {
+  float: right;
+}
+
+#guess-button {
+  float: left;
+}
+
+.guess-clue {
+  position: absolute;
+  width: 500px;
+  height: 750px;
+  left: 33%;
+  text-align: center;
+  top: 600px;
+}
+
+p {
+  color: #404041;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#your-number {
+  display: block;
+  font-size: 175px;
+  color: #EB008B;
+}
+
+#reset-button {
+  position: absolute;
+  left: 34%;
+  top: 1010px;
+  width: 500px;
+  line-height: 35px;
+}
+
+.button:disabled {
+  background-color: #D0D2D3;
+  border-color: #D0D2D3;
+}
+
+.button:hover {
+  background-color: #EB008B;
+  border-color: #EB008B;
+}

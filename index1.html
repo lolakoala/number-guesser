@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Number Guesser</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <header>
+      <h1>Number <span id="guesser">Guesser</span></h1>
+    </header>
+
+    <main>
+      <div id="min-max-fields">
+        <form>
+          <p id="range-msg">Set your range!</p>
+          <div class="label">
+            <label>Min:
+              <input type="text" id="min-field" class="min-max"/>
+            </label>
+          </div>
+          <div class="label">
+            <label>Max:
+              <input type="text" id="max-field" class="min-max"/>
+            </label>
+            <input type="Submit" value="Submit Range" id="submit-button" class="button" disabled="disabled"/>
+          </div>
+        </form>
+      </div>
+      <form>
+        <div id="top-boxes">
+          <input type="text" required title="1 to 3 characters" placeholder="Enter your guess" id="num-guessed"/>
+          <div id="guess-clear">
+            <button class="top-buttons button" id="guess-button" disabled="disabled">Guess</button>
+            <button class="top-buttons button" id="clear-button" disabled="disabled">Clear</button>
+          </div>
+        </div>
+        <div class="guess-clue">
+          <p>Your last guess was...</p>
+          <p id="your-number">?</p>
+          <p id="warning">Wait, guess a number first!</p>
+        </div>
+        <button id="reset-button" class="button" type="reset" value="Reset" onclick="document.location.reload(true);" disabled="disabled">Reset</button>
+      </form>
+
+    </main>
+
+    <!-- <img src="https://media.giphy.com/media/NChqv8catPlba/giphy.gif" disabled/> -->
+
+
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
